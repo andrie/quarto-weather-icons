@@ -9,8 +9,12 @@ end
 return {
   ['wi'] = function(args, kwargs)
     ensureHTMLdeps()
+    local ii = ''
+    for i, v in ipairs(args) do
+      ii = ii .. ' ' .. pandoc.utils.stringify(v)
+    end
     local icon = pandoc.utils.stringify(args[1])
-    local out = '<i class="wi '  .. icon .. '"></i>'
+    local out = '<i class="wi '  .. ii .. '"></i>'
     return pandoc.RawInline( 'html', out)
   end
 }

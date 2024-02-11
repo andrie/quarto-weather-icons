@@ -27,4 +27,21 @@ This is a cloudy day {{{< wi wi-day-cloudy >}}} icon
 
 This is a cloudy day {{< wi wi-day-cloudy >}} icon
 
+## Modifiers
+
+You can use several modifiers to change the appearance of the icons. For example, to flip an icon horizontally, you can use the following shortcode:
+
+``` md
+{{{< wi wi-day-cloudy wi-flip-horizontal >}}}
+```
+
+Category    | modifier             | Example
+--------    |--------------------- | :-----:
+Flip        | `wi-flip-horizontal` | {{< wi wi-day-cloudy wi-flip-horizontal >}}
+.           | `wi-flip-vertical`   | {{< wi wi-day-cloudy wi-flip-vertical >}}
+Rotate      | `wi-rotate-90`       | {{< wi wi-day-cloudy wi-rotate-90 >}}
+.           | `wi-rotate-180`      | {{< wi wi-day-cloudy wi-rotate-180 >}}
+.           | `wi-rotate-270`      | {{< wi wi-day-cloudy wi-rotate-270 >}}
+Fixed width | `wi-fw`              | {{< wi wi-day-cloudy wi-fw >}}
+
 
