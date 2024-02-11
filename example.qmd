@@ -1,0 +1,12 @@
+---
+title: "Quarto-weather-icons Example"
+format:
+  html
+    # css:  _extensions/quarto-weather-icons/css/weather-icons.css
+
+---
+
+## Heading
+
+{{< wi wi-day-sunny >}}
+
