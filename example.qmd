@@ -1,12 +1,30 @@
 ---
-title: "Quarto-weather-icons Example"
+title: "weather-icons example"
 format:
   html
     # css:  _extensions/quarto-weather-icons/css/weather-icons.css
 
 ---
 
-## Heading
+## Inserting an icon
 
-{{< wi wi-day-sunny >}}
+
+You can insert a weather icon using the `wi` shortcode. For example, to insert a sunny icon, you can use the following shortcode:
+
+```md
+This is a sunny day {{{< wi wi-day-sunny >}}} icon
+```
+
+This is a sunny day {{< wi wi-day-sunny >}} icon
+
+## Available icons
+
+You can use any icon from the [Weather Icons](https://erikflowers.github.io/weather-icons/) project. For example, to insert a cloudy icon, you can use the following shortcode:
+
+```md
+This is a cloudy day {{{< wi wi-day-cloudy >}}} icon
+```
+
+This is a cloudy day {{< wi wi-day-cloudy >}} icon
+
 

@@ -24,6 +24,8 @@ You can create shortcodes like this:
 {{{< wi wi-day-sunny >}}}
 ```
 
+This will insert an icon for a sunny day {{< wi wi-day-sunny >}}.
+
 ## Example
 
 Here is the source code for a minimal example: [example.qmd](example.qmd).

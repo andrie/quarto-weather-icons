@@ -21,6 +21,9 @@ You can create shortcodes like this:
 {{< wi wi-day-sunny >}}
 ```
 
+This will insert an icon for a sunny day
+<i class="wi wi-day-sunny"></i>.
+
 ## Example
 
 Here is the source code for a minimal example:
